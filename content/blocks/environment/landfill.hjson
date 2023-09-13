@@ -1,0 +1,9 @@
+type: Floor
+name: Landfill
+variants: 2
+planet: nauvis
+buildVisibility: shown
+category: distribution
+requirements: [
+	stone-f/20
+]

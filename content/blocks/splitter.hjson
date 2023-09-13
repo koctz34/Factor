@@ -1,0 +1,11 @@
+type: DuctRouter
+hasShadow: true
+health: 170
+planet: nauvis
+buildCostMultiplier: 30
+requirements: [
+  electronic-plate/5
+  iron-plate/7
+  iron-gears/2
+]
+category: distribution

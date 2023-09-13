@@ -1,0 +1,12 @@
+{
+    type: "Wall",
+    category: "defense",
+
+    health: 300,
+	editorOnly: true,
+	buildVisibility: editorOnly,
+
+    requirements: [
+        "wood/6"
+    ]
+}

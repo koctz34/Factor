@@ -1,0 +1,14 @@
+name: factor
+displayName: Factor
+author: MISTICA
+subtitle: Factorio in mindustry!
+description: 
+'''
+This planet has (almost) every single field you can declare in JSON planets. Press the "Repo" button below to see the source code.
+
+This is NOT meant to be played.
+'''
+
+minGameVersion: 146
+main: MultiCrafterAdapter
+java: true

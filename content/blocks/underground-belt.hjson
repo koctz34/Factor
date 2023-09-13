@@ -1,0 +1,18 @@
+type: DuctBridge
+hasShadow: true
+health: 150
+planet: nauvis
+buildCostMultiplier: 20
+requirements: [
+  iron-plate/17
+]
+category: distribution
+range: 6
+transportTime: 60
+fadeIn: false
+moveArrows: false
+pulse: false
+speed: 0.05
+arrowPeriod: 0
+arrowTimeScl: 0
+bufferCapacity: 5

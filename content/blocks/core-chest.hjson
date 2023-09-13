@@ -1,0 +1,18 @@
+{
+    type: "CoreBlock",
+    category: "effect",
+
+    size: 2,
+    health: 700,
+    itemCapacity: 700,
+    unitType: "beta",
+    isFirstTier: true,
+    alwaysUnlocked: true,
+    buildVisibility: "hidden",
+
+    research: {
+        root: true,
+        name: "Nauvis",
+        planet: "nauvis"
+    }
+}

@@ -1,0 +1,15 @@
+type: Drill
+size: 2
+ambientSound: drilling
+ambientSoundVolume: 0.3f
+planet: nauvis
+tier: 1
+hasShadow: false
+drillTime: 5000
+buildCostMultiplier: 50,
+requirements: [
+iron-gears/3
+iron-plate/3
+stone-f/5
+]
+category: production

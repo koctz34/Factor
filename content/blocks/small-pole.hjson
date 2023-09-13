@@ -1,0 +1,10 @@
+type: PowerNode
+category: power
+maxNodes: 50
+laserRange: 5
+laserColor1: 363636
+laserColor2: 6e6e6e
+requirements: [
+wood/1
+copper-cable/1
+]

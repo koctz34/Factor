@@ -1,0 +1,14 @@
+{
+    type: "Conveyor",
+    category: "distribution",
+
+    health: 150,
+	planet: nauvis,
+    speed: 0.03,
+    displayedSpeed: 8.4,
+
+    requirements: [
+        "iron-gears/1"
+		"iron-plate/1"
+    ]
+}

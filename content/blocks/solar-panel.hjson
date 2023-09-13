@@ -1,0 +1,8 @@
+type: SolarGenerator
+size: 3
+hasPower: true
+powerProduction: 1
+category: power
+requirements: [
+    "copper/1"
+]

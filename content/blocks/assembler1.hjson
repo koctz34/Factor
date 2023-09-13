@@ -1,0 +1,58 @@
+{
+    type: multicraft.MultiCrafter
+    category: "crafting",
+	ambientSound: assemble,
+	planet: nauvis,
+	ambientSoundVolume: 0.9f,
+    size: 3,
+	health: 200,
+	haspower: true,
+	powerCapacity: 2,
+	hasShadow: true,
+	itemCapacity: 20,
+	buildCostMultiplier: 70,
+	drawer: [
+        {
+            type: "DrawRegion"
+        }
+    ],
+    recipes: 
+[
+{
+  input: {
+    items: [
+      factor-copper-cable/3
+	  factor-iron-plate/1
+    ],
+	power: 1
+  }
+  output: factor-electronic-plate/1
+  craftTime: 200.0
+},
+{
+	input: {
+    items: [
+      factor-copper-plate/1
+    ],
+	power: 1
+  }
+  output: factor-copper-cable/2
+  craftTime: 200.0
+},
+{
+  input: {
+    items: [
+      factor-iron-plate/2
+    ],
+	power: 1
+  }
+  output: factor-iron-gears/1
+  craftTime: 200.0
+}
+]
+    requirements: [
+        "electronic-plate/3"
+		"iron-gears/5"
+		"iron-plate/9"
+    ]
+}

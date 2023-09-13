@@ -1,0 +1,8 @@
+type: Floor
+speedMultiplier: 1
+name: Water
+variants: 1
+isLiquid: true
+albedo: 0.7
+supportsOverlay: true
+cacheLayer: water
