@@ -4,9 +4,11 @@ author: MISTICA
 subtitle: Factorio in mindustry!
 description: 
 '''
-This planet has (almost) every single field you can declare in JSON planets. Press the "Repo" button below to see the source code.
+Factorio in mindustry!
 
-This is NOT meant to be played.
+In this mod, almost all the content from the Factorio game will be transferred. You have to build a big factory... and launch a rocket! The mod is not in very active development, support is needed for the development of the mod.
+
+For an atmospheric game, it is recommended to download factroundustry. Good luck with building the factory!
 '''
 
 minGameVersion: 146
