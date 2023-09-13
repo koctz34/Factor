@@ -1,0 +1,7 @@
+type: Conduit
+health: 100
+requirements: [
+        "iron-plate/1"
+    ]
+buildCostMultiplier: 20,
+category: "liquid"

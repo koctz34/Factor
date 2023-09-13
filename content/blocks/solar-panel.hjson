@@ -4,5 +4,5 @@ hasPower: true
 powerProduction: 1
 category: power
 requirements: [
-    "copper/1"
+    "solar-panel-bu/1"
 ]

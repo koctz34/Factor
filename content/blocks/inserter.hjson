@@ -1,0 +1,9 @@
+type: Unloader
+hasPower: true
+consumes: {
+power: 0.3
+}
+category: effect
+requirements: [
+    "inserter-bu/1"
+]

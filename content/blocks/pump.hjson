@@ -1,0 +1,10 @@
+type: Pump
+health: 150
+requirements: [
+        "iron-plate/1"
+		"electronic-plate/2"
+		"iron-gears/1"
+    ]
+buildCostMultiplier: 35,
+category: "liquid",
+size: 2

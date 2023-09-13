@@ -1,0 +1,8 @@
+{
+    type: "StorageBlock",
+    category: "effect",
+
+    size: 1,
+    health: 350,
+    itemCapacity: 700
+}

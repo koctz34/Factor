@@ -30,6 +30,18 @@
   craftTime: 200.0
 },
 {
+  input: {
+    items: [
+      factor-electronic-plate/1
+	  factor-iron-gears/1
+	  factor-iron-plate/1
+    ],
+	power: 1
+  }
+  output: factor-inserter-bu/1
+  craftTime: 230.0
+},
+{
 	input: {
     items: [
       factor-copper-plate/1
