@@ -1,0 +1,12 @@
+type: LightBlock
+health: 100
+requirements: [
+        "iron-plate/1"
+		"copper-cable/3"
+		"electronic-plate/1"
+    ]
+consumes: {
+  power: 0.4
+}
+buildCostMultiplier: 20,
+category: "liquid"

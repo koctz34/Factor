@@ -2,9 +2,9 @@
     type: "StorageBlock",
     category: "effect",
 	requirements: [
-        "steel/8"
+        "iron-plate/8"
     ]
     size: 1,
-    health: 350,
-    itemCapacity: 700
+    health: 200,
+    itemCapacity: 500
 }

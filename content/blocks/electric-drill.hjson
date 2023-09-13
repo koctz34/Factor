@@ -1,0 +1,15 @@
+type: Drill
+size: 3
+ambientSound: drilling
+ambientSoundVolume: 0.3f
+planet: nauvis
+tier: 1
+hasShadow: false
+drillTime: 3000
+requirements: [
+electric-drill-bu/1
+]
+category: production
+consumes: {
+  power: 1
+}

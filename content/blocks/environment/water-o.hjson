@@ -7,3 +7,5 @@ albedo: 0.9
 supportsOverlay: true
 cacheLayer: water
 solid: true
+liquidDrop: water
+liquidMultiplier: 1.25f

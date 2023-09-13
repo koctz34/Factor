@@ -1,0 +1,23 @@
+type: ConsumeGenerator
+category: "power",
+ambientSound: steam-engine,
+planet: nauvis,
+ambientSoundVolume: 0.9f,
+size: 3,
+health: 200,
+powerProduction: 6,
+consumes: {
+	liquids: [
+		steam/0.1
+	]
+}
+powerCapacity: 8,
+hasLiquids: true,
+hasShadow: false,
+itemCapacity: 20,
+buildCostMultiplier: 55,
+
+requirements: [
+	"iron-gears/8"
+	"iron-plate/15"
+]

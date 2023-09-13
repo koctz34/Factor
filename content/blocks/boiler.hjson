@@ -7,9 +7,9 @@
     size: 2,
 	health: 200,
 	menu: simple,
-	hasShadow: false,
+	hasShadow: true,
 	itemCapacity: 20,
-	buildCostMultiplier: 30,
+	buildCostMultiplier: 40,
 	drawer: [
         {
             type: "DrawRegion"
@@ -24,35 +24,22 @@
 {
   input: {
     items: [
-      factor-copper-ore/2
 	  factor-coal-f/1
-    ]
+    ],
+	fluids: [
+      water/0.3  
+	]
   }
-  output: factor-copper-plate/2
-  craftTime: 310.0
-},
-{
-  input: {
-    items: [
-      factor-iron-ore/2
-	  factor-coal-f/1
-    ]
+  output: {
+  fluids: [
+      factor-steam/0.3 
+  ]
   }
-  output: factor-iron-plate/2
-  craftTime: 310.0
-},
-{
-  input: {
-    items: [
-      factor-iron-plate/5
-	  factor-coal-f/1
-    ]
-  }
-  output: factor-steel/1
-  craftTime: 310.0
+  craftTime: 150.0
 }
 ]
     requirements: [
         "stone-f/5"
+		"iron-plate/4"
     ]
 }

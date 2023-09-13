@@ -6,10 +6,11 @@
 	ambientSoundVolume: 0.9f,
     size: 3,
 	health: 200,
+	menu: simple,
 	haspower: true,
 	powerCapacity: 2,
 	hasShadow: true,
-	itemCapacity: 20,
+	itemCapacity: 100,
 	buildCostMultiplier: 70,
 	drawer: [
         {
@@ -59,6 +60,18 @@
 	power: 1
   }
   output: factor-iron-gears/1
+  craftTime: 200.0
+},
+{
+  input: {
+    items: [
+      factor-electronic-plate/3
+	  factor-iron-plate/10
+	  factor-iron-gears/5
+    ],
+	power: 1
+  }
+  output: factor-electric-drill-bu/1
   craftTime: 200.0
 }
 ]
