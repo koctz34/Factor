@@ -73,6 +73,40 @@
   }
   output: factor-electric-drill-bu/1
   craftTime: 200.0
+},
+{
+  input: {
+    items: [
+      factor-copper-plate/10
+	  factor-iron-plate/20
+	  factor-iron-gears/10
+    ],
+	power: 1
+  }
+  output: factor-gun-turret-bu/1
+  craftTime: 380.0
+},
+{
+  input: {
+    items: [
+	  factor-iron-plate/4
+    ],
+	power: 1
+  }
+  output: factor-ammo1/1
+  craftTime: 100.0
+},
+{
+  input: {
+    items: [
+	  factor-ammo1/1
+	  factor-copper-plate/5
+	  factor-steel/1
+    ],
+	power: 1
+  }
+  output: factor-ammo2/1
+  craftTime: 100.0
 }
 ]
     requirements: [

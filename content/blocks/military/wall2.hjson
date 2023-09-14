@@ -1,0 +1,9 @@
+{
+    type: "Wall",
+    category: "defense",
+    health: 350,
+
+    requirements: [
+        "stone-f/5"
+    ]
+}

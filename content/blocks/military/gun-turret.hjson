@@ -1,0 +1,36 @@
+{
+    type: "ItemTurret",
+    category: "turret",
+    size: 2,
+	ammoUseEffect: casing1,
+	shootY: 10,
+    requirements: [ 
+		"gun-turret-bu/1"
+    ]
+
+    range: 100,
+    reload: 4,
+	health: 400,
+	outlineRadius: 0,
+
+    ammoTypes: {
+        ammo1: {
+            ammoMultiplier: 10,
+			shootSound: shoot2,
+            damage: 5,
+            height: 9,
+            speed: 99,
+            width: 7
+			lifetime: 2,
+        },
+		ammo2: {
+            ammoMultiplier: 10,
+			shootSound: shoot2,
+            damage: 8,
+            height: 9,
+            speed: 99,
+            width: 7
+			lifetime: 2,
+        }
+    }
+}
