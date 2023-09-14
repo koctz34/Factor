@@ -7,3 +7,5 @@ The mod is not in very active development, support is needed for the development
 
 For an atmospheric game, it is recommended to download factroundustry.
 Good luck with building the factory!
+
+THE MAIN PLANET Nauvis IS STILL UNDER DEVELOPMENT, IT IS EXTREMELY NOT RECOMMENDED TO PLAY ON IT.
