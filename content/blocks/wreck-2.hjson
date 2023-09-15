@@ -1,0 +1,16 @@
+{
+    type: "Wall",
+    category: "defense",
+
+    health: 300,
+	editorOnly: true,
+	buildVisibility: editorOnly,
+	size: 2,
+	hasShadow: false,
+
+    requirements: [
+        "iron-plate/6"
+		"copper-plate/8"
+		"iron-gears/4"
+    ]
+}

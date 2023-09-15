@@ -1,0 +1,8 @@
+{
+    type: "StorageBlock",
+    size: 11,
+    health: 700,
+	hasShadow: false,
+    itemCapacity: 700,
+	buildCostMultiplier: 80
+}
