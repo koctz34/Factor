@@ -21,3 +21,13 @@ requirements: [
 	"iron-gears/8"
 	"iron-plate/15"
 ]
+
+drawer: [
+        {
+            type: "DrawRegion"
+        },
+        {
+            type: "DrawFade",
+            suffix: "-top"
+        }
+    ],

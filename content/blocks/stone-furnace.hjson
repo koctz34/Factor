@@ -15,7 +15,7 @@
             type: "DrawRegion"
         },
         {
-            type: "DrawRegion",
+            type: "DrawFade",
             suffix: "-top"
         }
     ],
