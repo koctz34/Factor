@@ -5,7 +5,7 @@ ambientSoundVolume: 0.3f
 planet: nauvis
 tier: 1
 hasShadow: false
-drillTime: 3000
+drillTime: 1000
 requirements: [
 electric-drill-bu/1
 ]
