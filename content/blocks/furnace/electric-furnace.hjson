@@ -1,0 +1,62 @@
+{
+    type: multicraft.MultiCrafter
+    category: "crafting",
+	ambientSound: furnace,
+	planet: nauvis,
+	ambientSoundVolume: 1f,
+    size: 3,
+	health: 350,
+	menu: simple,
+	haspower: true,
+	powerCapacity: 2,
+	hasShadow: false,
+	itemCapacity: 40,
+	buildCostMultiplier: 0,
+	drawer: [
+        {
+            type: "DrawRegion"
+        },
+        {
+            type: "DrawFade",
+            suffix: "-top"
+        }
+    ],
+    recipes: 
+[
+{
+  input: {
+    items: [
+      factor-copper-ore/2
+	  
+    ],
+	power: 0.4
+  }
+  output: factor-copper-plate/2
+  craftTime: 150.0
+},
+{
+  input: {
+    items: [
+      factor-iron-ore/2
+    ],
+	power: 0.4
+  }
+  output: factor-iron-plate/2
+  craftTime: 150.0
+},
+{
+  input: {
+    items: [
+      factor-iron-plate/5
+	  
+    ],
+	power: 0.5
+  }
+  output: factor-steel/1
+  craftTime: 190.0
+}
+]
+    requirements: [
+        "electric-furnace-bu/1"
+    ]
+}
