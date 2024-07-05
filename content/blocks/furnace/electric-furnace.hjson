@@ -32,7 +32,7 @@
 	power: 0.4
   }
   output: factor-copper-plate/2
-  craftTime: 150.0
+  craftTime: 120.0
 },
 {
   input: {
@@ -42,7 +42,7 @@
 	power: 0.4
   }
   output: factor-iron-plate/2
-  craftTime: 150.0
+  craftTime: 120.0
 },
 {
   input: {
@@ -53,7 +53,7 @@
 	power: 0.5
   }
   output: factor-steel/1
-  craftTime: 190.0
+  craftTime: 120.0
 }
 ]
     requirements: [
